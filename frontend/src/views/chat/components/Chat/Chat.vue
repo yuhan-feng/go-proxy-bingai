@@ -258,7 +258,7 @@ const handlePromptListScroll = () => {
 
 const auth = async () => {
   if (!authKey.value) {
-    message.error('请先输入授权码');
+    message.error('关注公众号柴造 CNET获取密码');
     return;
   }
   isAuthBtnLoading.value = true;
